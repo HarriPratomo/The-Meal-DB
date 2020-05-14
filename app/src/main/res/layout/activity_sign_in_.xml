@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The Meal"
+        android:fontFamily="@font/gilroy_regular"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="30dp"/>
+
+   <ImageView
+       android:layout_width="200dp"
+       android:layout_height="300dp"
+       android:src="@drawable/meals_db"
+       android:layout_centerInParent="true"/>
+    <com.shobhitpuri.custombuttons.GoogleSignInButton
+        android:id="@+id/sign_in_button"
+        android:layout_width="200dp"
+        android:fontFamily="@font/gilroy_regular"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_btn"
+        android:layout_marginBottom="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:text="@string/google_sign_up"
+        app:isDarkTheme="true" />
+
+</RelativeLayout>

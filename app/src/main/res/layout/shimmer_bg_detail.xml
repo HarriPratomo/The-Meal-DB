@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_margin="5dp"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:id="@+id/line1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <View
+            android:id="@+id/view_image"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="8dp"
+            android:background="@color/backgrounds" />
+        <View
+            android:id="@+id/view_type"
+            android:layout_width="180dp"
+            android:layout_height="44dp"
+            android:layout_margin="8dp"
+            android:background="@color/backgrounds" />
+        <View
+            android:id="@+id/view_type2"
+            android:layout_width="180dp"
+            android:layout_height="44dp"
+            android:layout_margin="8dp"
+            android:background="@color/backgrounds" />
+        <LinearLayout
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <View
+                android:id="@+id/view_type3"
+                android:layout_width="100dp"
+                android:layout_height="44dp"
+                android:layout_margin="8dp"
+                android:background="@color/backgrounds" />
+            <View
+                android:id="@+id/view_type4"
+                android:layout_width="100dp"
+                android:layout_height="44dp"
+                android:layout_margin="8dp"
+                android:background="@color/backgrounds" />
+        </LinearLayout>
+        <View
+            android:id="@+id/view_type6"
+            android:layout_width="180dp"
+            android:layout_height="44dp"
+            android:layout_margin="8dp"
+            android:background="@color/backgrounds" />
+        <LinearLayout
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <View
+                    android:id="@+id/view_type8"
+                    android:layout_width="100dp"
+                    android:layout_height="24dp"
+                    android:layout_margin="8dp"
+                    android:background="@color/backgrounds" />
+                <View
+                    android:layout_width="100dp"
+                    android:layout_height="24dp"
+                    android:layout_margin="8dp"
+                    android:background="@color/backgrounds" />
+                <View
+                    android:layout_width="100dp"
+                    android:layout_height="24dp"
+                    android:layout_margin="8dp"
+                    android:background="@color/backgrounds" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <View
+                    android:layout_width="100dp"
+                    android:layout_height="24dp"
+                    android:layout_margin="8dp"
+                    android:background="@color/backgrounds" />
+                <View
+                    android:layout_width="100dp"
+                    android:layout_height="24dp"
+                    android:layout_margin="8dp"
+                    android:background="@color/backgrounds" />
+                <View
+                    android:layout_width="100dp"
+                    android:layout_height="24dp"
+                    android:layout_margin="8dp"
+                    android:background="@color/backgrounds" />
+            </LinearLayout>
+        </LinearLayout>
+        <View
+            android:id="@+id/view_type64"
+            android:layout_width="180dp"
+            android:layout_height="24dp"
+            android:layout_margin="8dp"
+            android:background="@color/backgrounds" />
+
+        <View
+            android:id="@+id/view_type68"
+            android:layout_width="match_parent"
+            android:layout_height="94dp"
+            android:layout_margin="8dp"
+            android:background="@color/backgrounds" />
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>

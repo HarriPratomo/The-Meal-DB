@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">TheMeal</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="desc">Histori terjemahan akan segera tersedia saat Anda login dan akan dikelola secara terpusat dalam Aktivitas Saya. Histori sebelumnya akan dihapus selama upgrade ini, jadi pastikan untuk menyimpan terjemahan yang ingin Anda ingat agar mudah diakses nantinya.</string>
+    <string name="add_favorite">Add to favorite</string>
+    <string name="fail_favorite">Favorite failed !</string>
+    <string name="remove_favorite">Remove from favorites</string>
+    <string name="fail_remove">Fail Removed !</string>
+    <string name="desc_apps">Welcome to TheMealDB: An open, crowd-sourced database of Recipes from around the world. We also offer a free JSON API for anyone wanting to use it.</string>
+</resources>
